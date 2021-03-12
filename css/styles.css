@@ -378,10 +378,11 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--first-text-color);
-  fill: var(--main-btn-color);
+  fill: var(--net-color);
 }
 
-.networks-list-link:hover {
+.networks-list-link:hover,
+.networks-list-link:focus {
   background-color: var(--accent-color);
   fill: var(--first-text-color);
 }
@@ -433,11 +434,13 @@ img {
   fill: var(--net-color);
 }
 
-.clients-item-link:hover {
+.clients-item-link:hover,
+.clients-item-link:focus {
   border: 1px solid var(--accent-color);
 }
 
-.clients-item-link:hover .clients-item-icon {
+.clients-item-link:hover .clients-item-icon,
+.clients-item-link:focus .clients-item-icon {
   fill: var(--accent-color);
 }
 
@@ -504,7 +507,8 @@ img {
   fill: var(--first-text-color);
 }
 
-.net-list-link:hover {
+.net-list-link:hover,
+.net-list-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -551,7 +555,8 @@ img {
   flex-wrap: wrap;
 }
 
-.list-images-item:hover {
+.list-images-item:hover,
+.list-images-item:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
